@@ -57,6 +57,10 @@ const Analytics = () => {
       >
         <Bar data={chartData} options={chartOptions} />
       </div>
+      <footer className="flex justify-center items-center py-4 bg- text-gray-800">
+        Made by{" "}
+        <div className="ml-1 font-semibold hover:underline">@FireAI</div>
+      </footer>
     </div>
   );
 };
